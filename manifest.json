@@ -1,0 +1,13 @@
+{
+  "name": "ESP32 Database Edition",
+  "version": "2.0-DB",
+  "new_install_prompt_erase": false,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "firmware.bin", "offset": 65536 }
+      ]
+    }
+  ]
+}
